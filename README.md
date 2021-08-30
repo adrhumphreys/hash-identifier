@@ -9,9 +9,9 @@ listOfMatchingHashes, _ := identify(hash)
 This will return `[]Hash` which looks like:
 ```go
 type Hash struct {
-	Name string
-	John string
-	Hashcat int32
-	Extended bool
+    Name string
+    John string
+    Hashcat int32
+    Extended bool
 }
 ```
